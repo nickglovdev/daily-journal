@@ -3,8 +3,6 @@
     flex-direction: column;
     border:none;
     padding-left: 0;
+  
 }
 
-.journal__entries label {
-    flex-basis: 1em;
-}

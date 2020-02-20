@@ -9,16 +9,22 @@
 <body>
     <h1>Daily Journal</h1>
     <form action="">
-        <fieldset class="journal__entries">
+        <fieldset>
             <label for="journalDate">Date of entry</label>
             <input type="date" class="entries" name="journalDate" id="journalDate">
+        </fieldset>
 
+        <fieldset>
             <label for="journalConcept">Concepts covered</label>
             <input type="text" class="entries" name="journalConcept" id="journalConcept">
+        </fieldset>
 
+        <fieldset>
             <label for="journalEntry">Journal Entry</label>
             <textarea name="journalEntry" class="entries" id="journalEntry" cols="30" rows="4"></textarea>
-            
+        </fieldset>
+        
+        <fieldset>
             <label for="journalOptions">Mood for the day</label>
             <select class="entries" name="journalOptions" id="journalOptions">
                 <option value="sad">Sad</option>
