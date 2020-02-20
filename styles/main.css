@@ -1,8 +1,6 @@
-.journal__entries {
-    display: flex;
+fieldset {
+    display:flex;
     flex-direction: column;
-    border:none;
-    padding-left: 0;
-  
+    width:50%;
 }
 
