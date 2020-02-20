@@ -1,6 +1,9 @@
+
+.journal {
+   width:45%;
+}
 .journal__field {
     display:flex;
     flex-direction: column;
-    width:50%;
 }
 
