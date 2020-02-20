@@ -8,25 +8,25 @@
 </head>
 <body>
     <h1>Daily Journal</h1>
-    <form action="">
-        <fieldset>
+    <form action="" class="journal">
+        <fieldset class="journal__field">
             <label for="journalDate">Date of entry</label>
-            <input type="date" class="entries" name="journalDate" id="journalDate">
+            <input type="date" name="journalDate" id="journalDate">
         </fieldset>
 
-        <fieldset>
+        <fieldset class="journal__field">
             <label for="journalConcept">Concepts covered</label>
-            <input type="text" class="entries" name="journalConcept" id="journalConcept">
+            <input type="text" name="journalConcept" id="journalConcept">
         </fieldset>
 
-        <fieldset>
+        <fieldset class="journal__field">
             <label for="journalEntry">Journal Entry</label>
-            <textarea name="journalEntry" class="entries" id="journalEntry" cols="30" rows="4"></textarea>
+            <textarea name="journalEntry" id="journalEntry" cols="30" rows="4"></textarea>
         </fieldset>
         
-        <fieldset>
+        <fieldset class="journal__field">
             <label for="journalOptions">Mood for the day</label>
-            <select class="entries" name="journalOptions" id="journalOptions">
+            <select name="journalOptions" id="journalOptions">
                 <option value="sad">Sad</option>
                 <option value="happy">Happy</option>
                 <option value="mad">Mad</option>
