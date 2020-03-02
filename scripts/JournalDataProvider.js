@@ -13,6 +13,18 @@ const journal = [
         concept: "HTML & CSS",
         entry: "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
         mood: "Ok"
+    },
+    {
+        date: "07/28/2025",
+        concept: "HTML & CSS",
+        entry: "Got angry at CSS becuase it didn't work the way I wanted it to.",
+        mood: "Mad"
+    },
+    {
+        date: "07/30/2025",
+        concept: "HTML & CSS",
+        entry: "Figured our the JavaScript for dialong buttons, and feeling groovy.",
+        mood: "Groovy"
     }
 ]
 
