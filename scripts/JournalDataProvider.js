@@ -23,7 +23,7 @@ const journal = [
         mood: "Mad"
     },
     {
-        id: 3
+        id: 3,
         date: "07/30/2025",
         concept: "HTML & CSS",
         entry: "Figured our the JavaScript for dialong buttons, and feeling groovy.",

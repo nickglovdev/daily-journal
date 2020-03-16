@@ -15,11 +15,14 @@ const EntryListComponent = () => {
     const entries = useJournalEntries()
 
     for (const entry of entries) {
+        
         /*
             Invoke the component that returns an
             HTML representation of a single entry
         */
-        entryLog.innerHTML += ???
+        const entryHTML = JournalEntryComponent(entry)
+        console.log(entryHTML)
+        entryLog.innerHTML += entryHTML
     }
 }
 
