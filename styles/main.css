@@ -2,8 +2,12 @@
 .journal {
    width:45%;
 }
+.journalEntry {
+    margin-top:1em;
+}
 .journal__field {
     display:flex;
     flex-direction: column;
 }
+
 

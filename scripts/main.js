@@ -1,3 +1,2 @@
-import  { useJournalEntries }  from "./useJournalEntries.js";
-
-useJournalEntries()
+import EntryListComponent from "./JournalEntryList.js"
+EntryListComponent();
