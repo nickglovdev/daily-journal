@@ -10,6 +10,8 @@ contentTarget.addEventListener("click", clickEvent => {
         const journalConcept = document.querySelector("#journalConcept").value
         const journalEntry = document.querySelector("#journalEntry").value
         const journalOptions = document.querySelector("#journalOptions").value
+        
+        
 
         // Make a new object representation of a journal
         const newEntrie = {
@@ -18,9 +20,12 @@ contentTarget.addEventListener("click", clickEvent => {
             entry: journalEntry,
             mood: journalOptions
         }
+        
 
         // Change API state and application state
         saveEntries(newEntrie)
+       
+       
     }
 })
 
@@ -52,8 +57,8 @@ const render = () => {
                     <option value="groovy">Groovy</option>  
                 </select>
             </fieldset>
-            <button id="saveEntries">Save Entries</button>
         </form>
+        <button id="saveEntries">Save Entries</button>
         <div id="entryLog"></div
     `
 }

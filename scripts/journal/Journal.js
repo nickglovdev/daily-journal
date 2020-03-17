@@ -2,15 +2,15 @@
  *  Purpose: To render a single journal entry as an
  *           HTML representation of the data
  */
-const JournalEntryComponent = (entry) => {
-    return `
-        <section id="entry--${entry.id}" class="journalEntry">
-            <div>${entry.date}</div>
-            <div>${entry.concept}</div>
-            <div>${entry.entry}</div>
-            <div>${entry.mood}</div>
-        </section>
-    `
-}
+// const JournalEntryComponent = (entry) => {
+//     return `
+//         <section id="entry--${entry.id}" class="journalEntry">
+//             <div>${entry.date}</div>
+//             <div>${entry.concept}</div>
+//             <div>${entry.entry}</div>
+//             <div>${entry.mood}</div>
+//         </section>
+//     `
+// }
 
-export default JournalEntryComponent
+// export default JournalEntryComponent
