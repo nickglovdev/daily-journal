@@ -8,7 +8,7 @@
       "mood": "Ok"
     },
     {
-      "date": "",
+      "date": "2020-03-18",
       "concept": "",
       "entry": "",
       "mood": "Ok",
@@ -17,65 +17,16 @@
     {
       "date": "2020-03-18",
       "concept": "HTML",
-      "entry": "Hello",
+      "entry": "Hello World",
       "mood": "Ok",
       "id": 3
     },
     {
-      "date": "2020-03-18",
+      "date": "",
       "concept": "HTML",
       "entry": "Help",
       "mood": "Ok",
       "id": 4
-    },
-    {
-      "date": "2020-03-17",
-      "concept": "HTML",
-      "entry": "Help",
-      "mood": "Ok",
-      "id": 5
-    },
-    {
-      "date": "2020-03-18",
-      "concept": "HTML TEst",
-      "entry": "NOO@O!",
-      "mood": "Ok",
-      "id": 6
-    },
-    {
-      "date": "2020-03-18",
-      "concept": "HTML",
-      "entry": "test",
-      "mood": "Ok",
-      "id": 7
-    },
-    {
-      "date": "2020-03-23",
-      "concept": "dfs",
-      "entry": "Hello",
-      "mood": "Ok",
-      "id": 8
-    },
-    {
-      "date": "",
-      "concept": "",
-      "entry": "",
-      "mood": "Ok",
-      "id": 9
-    },
-    {
-      "date": "",
-      "concept": "",
-      "entry": "",
-      "mood": "Ok",
-      "id": 10
-    },
-    {
-      "date": "",
-      "concept": "",
-      "entry": "",
-      "mood": "Ok",
-      "id": 11
     }
   ]
 }
