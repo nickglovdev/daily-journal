@@ -1,4 +1,3 @@
-const contentTarget = document.querySelector(".entries__button")
 const eventHub = document.querySelector(".container")
 
 
