@@ -1,5 +1,6 @@
 
 import { saveEntries } from "./JournalProvider.js"
+import { DisplayEntriesButton } from "./DisplayJournalButton.js"
 
 const contentTarget = document.querySelector(".form__container")
 
@@ -58,6 +59,7 @@ const render = () => {
             </fieldset>
         </form>
         <button id="saveEntries">Save Entrie</button>
+        ${DisplayEntriesButton()}
     `
 }
 
