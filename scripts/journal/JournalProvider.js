@@ -8,7 +8,12 @@ const dispatchStateChangeEvent = () => {
     eventHub.dispatchEvent(entriesStateChangedEvent)
 }
 
-const getEntries = () => {
+/*
+    Allow other modules to get a copy of the application state
+*/
+export const useEntries = () => entries.slice()
+
+export const getEntries = () => {
     return fetch('http://localhost:3000/entries')
         .then(response => response.json())
         .then(parsedEntries => {

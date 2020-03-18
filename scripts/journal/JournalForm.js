@@ -1,3 +1,4 @@
+
 import { saveEntries } from "./JournalProvider.js"
 
 const contentTarget = document.querySelector(".container")
@@ -59,7 +60,6 @@ const render = () => {
             </fieldset>
         </form>
         <button id="saveEntries">Save Entries</button>
-        <div id="entryLog"></div
     `
 }
 
