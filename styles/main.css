@@ -10,4 +10,7 @@
     flex-direction: column;
 }
 
+.invisible {
+    display:none;
+}
 

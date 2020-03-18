@@ -1,7 +1,7 @@
 
 import { saveEntries } from "./JournalProvider.js"
 
-const contentTarget = document.querySelector(".container")
+const contentTarget = document.querySelector(".form__container")
 
 // Handle browser-generated click event in component
 contentTarget.addEventListener("click", clickEvent => {
@@ -22,11 +22,9 @@ contentTarget.addEventListener("click", clickEvent => {
             mood: journalOptions
         }
         
-
         // Change API state and application state
         saveEntries(newEntrie)
-       
-       
+            
     }
 })
 
@@ -59,7 +57,7 @@ const render = () => {
                 </select>
             </fieldset>
         </form>
-        <button id="saveEntries">Save Entries</button>
+        <button id="saveEntries">Save Entrie</button>
     `
 }
 

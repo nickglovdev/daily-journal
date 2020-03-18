@@ -11,7 +11,6 @@ eventHub.addEventListener("allEntriesClicked", customEvent => {
 const render = () => {
     getEntries().then(() => {
         const allTheEntries = useEntries()
-        debugger
 
         contentTarget.innerHTML = allTheEntries.map(
             currentEntryObject => {
