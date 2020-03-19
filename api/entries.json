@@ -8,46 +8,25 @@
       "mood": "Ok"
     },
     {
-      "date": "2020-03-18",
-      "concept": "",
-      "entry": "",
-      "mood": "Ok",
+      "date": "2020-03-20",
+      "concept": "HTML",
+      "entry": "CSS",
+      "mood": "groovy",
       "id": 2
     },
     {
-      "date": "2020-03-18",
-      "concept": "HTML",
-      "entry": "Hello World",
+      "date": "2020-03-20",
+      "concept": "Hello World",
+      "entry": "HTML",
       "mood": "Ok",
       "id": 3
     },
     {
-      "date": "",
-      "concept": "HTML",
-      "entry": "Help",
+      "date": "2020-03-20",
+      "concept": "Hello World",
+      "entry": "HTML",
       "mood": "Ok",
       "id": 4
-    },
-    {
-      "date": "",
-      "concept": "",
-      "entry": "",
-      "mood": "Ok",
-      "id": 5
-    },
-    {
-      "date": "2020-03-18",
-      "concept": "HTML",
-      "entry": "Help me now",
-      "mood": "Ok",
-      "id": 6
-    },
-    {
-      "date": "2020-03-18",
-      "concept": "HTML",
-      "entry": "Help me now",
-      "mood": "Ok",
-      "id": 7
     }
   ]
 }

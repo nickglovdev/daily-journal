@@ -12,5 +12,5 @@ eventHub.addEventListener("click", clickEvent => {
 })
 
 export const DisplayEntriesButton = () => {
-    return "<button id='showAllEntries'>Journal Entries</button>"
+    return "<button id='showAllEntries'>Show Journal Entries</button>"
 }

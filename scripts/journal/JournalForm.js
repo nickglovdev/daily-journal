@@ -3,6 +3,9 @@ import { saveEntries } from "./JournalProvider.js"
 import { DisplayEntriesButton } from "./DisplayJournalButton.js"
 
 const contentTarget = document.querySelector(".form__container")
+const eventHub = document.querySelector('.container')
+
+
 
 // Handle browser-generated click event in component
 contentTarget.addEventListener("click", clickEvent => {
