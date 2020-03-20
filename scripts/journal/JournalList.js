@@ -6,6 +6,10 @@ const eventHub = document.querySelector(".container")
 
 let visibility = false
 
+eventHub.addEventListener("entriesStateChanged", customEvent => {
+    render()
+})
+
 eventHub.addEventListener("allEntriesClicked", customEvent => {
     visibility = !visibility
 
@@ -18,7 +22,12 @@ eventHub.addEventListener("allEntriesClicked", customEvent => {
 })
 
 const render = () => {
-    contentTarget.classList.add("invisible")
+    if (visibility) {
+        contentTarget.classList.remove("invisible")
+    }
+    else {
+        contentTarget.classList.add("invisible")
+    }
     getEntries().then(() => {
         const allTheEntries = useEntries()
 

@@ -8,25 +8,18 @@
       "mood": "Ok"
     },
     {
-      "date": "2020-03-20",
-      "concept": "HTML",
-      "entry": "CSS",
-      "mood": "groovy",
+      "date": "",
+      "concept": "",
+      "entry": "",
+      "mood": "Ok",
       "id": 2
     },
     {
-      "date": "2020-03-20",
-      "concept": "Hello World",
-      "entry": "HTML",
+      "date": "",
+      "concept": "",
+      "entry": "",
       "mood": "Ok",
       "id": 3
-    },
-    {
-      "date": "2020-03-20",
-      "concept": "Hello World",
-      "entry": "HTML",
-      "mood": "Ok",
-      "id": 4
     }
   ]
 }
