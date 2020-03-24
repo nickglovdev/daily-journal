@@ -1,8 +1,15 @@
-import { getEntries, useEntries } from "./JournalProvider.js"
+import { getEntries, useEntries, deleteEntries } from "./JournalProvider.js"
 import { journal } from "./Journal.js"
 
 const contentTarget = document.querySelector("#entryLog")
 const eventHub = document.querySelector(".container")
+
+contentTarget.addEventListener("click", clickEvent => {
+    if (clickEvent.target.id.startsWith("deleteEntrie--")) {
+        const [prefix, entriesId] = clickEvent.target.id.split("--")
+        deleteEntries(entriesId)
+    }
+})
 
 let visibility = false
 

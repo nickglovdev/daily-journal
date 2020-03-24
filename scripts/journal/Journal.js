@@ -9,6 +9,7 @@ export const journal = (entry) => {
             <div>${entry.concept}</div>
             <div>${entry.entry}</div>
             <div>${entry.mood}</div>
+            <button id="deleteEntrie--${entry.id}">Delete</button>
         </section>
     `
 }
